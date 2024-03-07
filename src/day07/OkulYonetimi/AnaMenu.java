@@ -17,14 +17,14 @@ public class AnaMenu {
 
     void menu(){
         Scanner scan=new Scanner(System.in);
-        System.out.println("\t====================================\n" +
+        System.out.print("\t====================================\n" +
                 "\t ÖĞRENCİ VE ÖĞRETMEN YÖNETİM PANELİ\n" +
                 "\t====================================\n" +
                 "\t\t1- ÖĞRENCİ İŞLEMLERİ\n" +
                 "\t\t2- ÖĞRETMEN İŞLEMLERİ\n" +
                 "\t\tQ- ÇIKIŞ\n" +
                 "\n" +
-                "\tSEÇİMİNİZ:\n");
+                "\tSEÇİMİNİZ:");
 
         char secim=scan.next().toUpperCase().charAt(0);
         switch (secim){

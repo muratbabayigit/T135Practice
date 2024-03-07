@@ -8,7 +8,7 @@ public class GunSayisiBulma {
         //Belirli bir tarih aralığındaki gün sayısını bulan bir Java programı yazın.
 
         LocalDate startDate=LocalDate.of(1980,05,07);
-        LocalDate endDate=LocalDate.of(2024,03,06);
+        LocalDate endDate=LocalDate.of(2024,03,07);
 
         long daysOfMyLife= ChronoUnit.DAYS.between(startDate,endDate);
         System.out.println("daysOfMyLife = " + daysOfMyLife);

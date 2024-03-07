@@ -42,7 +42,7 @@ public class OgrtIslemleri implements I_islemler{
 
     @Override
     public void ekleme() {
-        System.out.println("============ YENİ ÖĞRETMEN EKLEME ===============");
+        System.out.print("============ YENİ ÖĞRETMEN EKLEME ===============");
         scan.nextLine();
         System.out.print("Adı: ");
         String firstName= scan.nextLine();
@@ -72,7 +72,7 @@ public class OgrtIslemleri implements I_islemler{
                 System.out.println("Aradığınız kişi: "+each);
                 ogrtMenu();
             }else{
-                System.out.println("Aradığınız kişi kayıtlarda bulunamadı.");
+                System.out.println("Aradığınız kişi kayıtlarda bulunamadı.\n\n");
                 ogrtMenu();
             }
         }

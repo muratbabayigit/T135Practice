@@ -30,7 +30,6 @@ public class Kisi {
     }
 
     public Kisi() {
-
     }
 
     public String getFirstName() {
@@ -67,12 +66,12 @@ public class Kisi {
 
     @Override
     public String toString() {
-        return "Kisi{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", TCKN='" + TCKN + '\'' +
-                ", age=" + age +
-                '}';
+        return "Kişi Bigileri:\n " +
+                "Adı:" + firstName + "\n" +
+                "Soyadı:" + lastName + "\n" +
+                "TC Kimlik No:" + TCKN + "\n" +
+                "Yaşı:" + age +
+                "\n";
     }
 
 }
